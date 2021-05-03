@@ -1,0 +1,108 @@
+.div1 {
+    margin: 30px 0px 0px 0px;
+}
+
+.div2 {
+        width: 600px;
+        background-color: black;
+        margin: 50px 0px 0px 0px;
+}
+
+.boton1 {
+        width: 80px;
+        height: 80px;
+        background-color: #2196f3;
+        margin: 10px 50px 10px 10px;
+        border-radius: 50%;
+        border-color: #2196f3;
+        border: hidden;
+        font-size: 30;
+        font-weight: 500;
+        color: white;
+        text-align: center;
+        box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.4);
+        display: inline-block;
+}
+
+.boton1:active {
+        background-color: #2196f3;
+        color: white;
+        box-shadow: 0px 3px 15px 0px rgba(0,0,0,0.2);
+        transform: translateY(4px);
+} /* agregué esto para darle sensación de "click" */
+
+.boton2 {
+        background-color: #2196f3;
+        margin: 10px 30px 10px 10px;
+        padding: 10px 40px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 20;
+        color: white;
+        border-radius: 2px 2px 2px 2px;
+        border: 0px solid  #2196f3;
+        box-shadow: 0px 3px 7px 0px rgba(0,0,0,0.28);
+        display: inline-block;
+}
+
+.boton2:active {
+        background-color: #2196f3;
+        color: white;
+        box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.1);
+        transform: translateY(4px);
+} /* agregué esto para darle sensación de "click" */
+
+.boton3 {
+        background-color: white;
+        margin: 10px 10px 10px 10px;
+        padding: 10px 40px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 20;
+        color:  #2196f3;
+        border: none;
+        display: inline-block;
+}
+
+.boton3:active {
+        background-color: white;
+        color: #2196f3;
+        transform: translateY(4px);
+} /* agregué esto para darle sensación de "click" */
+
+.boton4 {
+        background-color: rgb(145, 92, 182);
+        color: rgba(255, 255, 255, 0.8);
+        padding:  10px 60px 10px 60px;
+        margin: 50px 50px 50px 40px;
+        font-size: 20;
+        text-transform: uppercase;
+        border: none;
+        border-radius: 5px 5px 5px 5px;
+        display: inline-block;
+        transition: all 0.2s ease-in-out;
+}
+
+.boton4:hover {
+        color: rgba(255, 255, 255, 1);
+        box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+.boton5 {
+        border-color: white;
+        border-radius: 5px 5px 5px 5px;
+        background-color: #bb0000;
+        display: inline-block;
+        padding:  10px 50px 10px 50px;
+        margin: 40px 50px 50px 10px;
+        font-size: 18;
+        color: white;
+        text-transform: uppercase;
+        display: inline-block;
+        transition: background-color 0.3s linear, color 0.3s linear;
+}
+
+.boton5:hover {
+        color: #e56b6b;
+        background-color: rgba(255, 255, 255, 0.9);
+}
